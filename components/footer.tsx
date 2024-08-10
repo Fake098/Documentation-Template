@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HeartIcon, HexagonIcon, TriangleIcon } from "lucide-react";
+import { HexagonIcon } from "lucide-react";
 
 export function Footer() {
   return (
