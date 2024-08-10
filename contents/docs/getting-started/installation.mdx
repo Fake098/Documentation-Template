@@ -1,79 +1,26 @@
 ---
 title: Installation
-description: Installation guide for our application.
+description: How to install and set up Memer.ts in your project.
 ---
 
-To get started with our application, follow these simple steps:
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam
+To begin using `Memer.ts`, follow these simple steps:
 
-## Prerequisites
+1. **Install the Package**: Install `Memer.ts` from npm using npm or yarn.
+   ```bash
+   npm install memer.ts
+   ```
+   ```bash
+   yarn add memer.ts
+   ```
 
-Before installing our application, make sure you have the following:
+Once installed, you can import `Memer.ts` into your TypeScript or JavaScript files and start manipulating images.
 
-- Node.js installed on your machine
+### Importing the Module
 
-<Note title="Remember" type="danger">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit Numquam iste dolorum
-  tempore consectetur explicabo.
-</Note>
+Here’s how to import `Memer.ts`:
 
-## Installation Steps
-
-<Stepper>
-<StepperItem title="Clone the Repository">
-Start by creating a new React project using vite:
-
-```bash
-git clone https://github.com/your-repo/your-project.git
+```typescript
+import { Memer } from "memer.ts";
 ```
 
-</StepperItem>
-<StepperItem title="Navigate to the Project Directory">
-Install `tailwindcss` and its peer dependencies, then add your `tailwind.config.js` and postcss.config.js files:
-
-```tsx
-import "@/styles/globals.css";
-import { Inter as FontSans } from "next/font/google";
-
-import { cn } from "@/lib/utils";
-
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
-export default function RootLayout({ children }: RootLayoutProps) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <head />
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
-        )}
-      >
-        ...
-      </body>
-    </html>
-  );
-}
-```
-
-</StepperItem>
-
-<StepperItem title="Install Dependencies">
- Install the necessary dependencies using npm or yarn.
-
-```bash
-npm install
-# or
-yarn install
-```
-
-</StepperItem>
-
-</Stepper>
-
-## Additional Information
-
-For more detailed instructions and troubleshooting tips, refer to our [documentation](#).
+Now you’re ready to start using the powerful features of `Memer.ts` in your project!
